@@ -1,0 +1,27 @@
+# Environment variables & secrets (CRITICAL: Never push API keys or personal tokens)
+.env
+*.env
+!.env.example
+
+# macOS metadata
+.DS_Store
+
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# IDE & Editor configs
+.vscode/
+.idea/
